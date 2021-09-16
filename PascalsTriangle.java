@@ -21,7 +21,7 @@ public class PascalsTriangle {
              System.out.print(" ");
           }
           for(j = 0; j <= i; j++){
-             System.out.print(" "+ncr(i, j));
+             System.out.print(" "+2*ncr(i, j));
           }
           System.out.println();
        }
